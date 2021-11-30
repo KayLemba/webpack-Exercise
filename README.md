@@ -31,7 +31,18 @@ Webpack
 4. Once the download is complete you will be able to access my project locally.
 Here is my repository link: https://kaylemba.github.io/webpack-exercise/
 
-## Steps:
+Getting Started
+Prerequisites:
+Web browser
+Code Editor (VS Code)
+Live Server Extension
+Cloning the repo to your local system (If you already have git, installed in your system):
+Copy this link
+Open your terminal or command line
+Run "git clone Paste this link"
+Open the folder with your code editor
+Now You can edit the code and check the changes in the browser using Live Server
+Steps:
 Basic Setup:
 Initialize npm: Run npm init -y
 
@@ -93,7 +104,7 @@ Update index.html:
 + <script src="main.js"></script>
 For taking our script at src/index.js as the entry point, and will generate dist/main.js as the output: Run npx webpack
 
- Modules:
+Modules:
 Create and update a configuration File webpack.config.js
 Run the build again but instead using our new configuration file: Run npx webpack --config webpack.config.js
 NPM Scripts:
@@ -105,7 +116,7 @@ Adjust package.json by adding an npm script:
 + "build": "webpack"
 Check if your script alias works: Run npm run build
 
-## Setting up HtmlWebpackPlugin:
+Setting up HtmlWebpackPlugin:
 HtmlWebpackPlugin automatically create the index.html file in the /dist directory inorder to avoid the risk of overwritting in the manual creation.
 
 Install the plugin: Run npm install --save-dev html-webpack-plugin
